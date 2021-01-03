@@ -1,0 +1,124 @@
+.container{
+    display: grid;
+    grid-template-rows: 12.5F 31.25F 12.5F 37.5F;
+    /* 6.66% 46.66 13.3333 33.3333 */
+
+}
+
+/* CSS for Navigation */
+
+.navContainer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navLogo{
+    height: 60px;
+	  width: 60px;
+	  padding: 10px;
+
+}
+
+.navDarkModeButton{
+
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+	border: none;
+
+	font-family: Roboto;
+	font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+	line-height: 18px;
+  
+}
+
+/* CSS for Hero Image*/
+
+.heroImageContainer {
+  display: flex;
+  background-position: bottom;
+
+}
+
+.heroImage{
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+
+  /* don't need? */
+  /* overflow:hidden; */
+
+  /* the secret sauce */
+  object-position: 25% 25%;
+
+}
+
+/* CSS for heading */
+
+.headingContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+
+}
+
+.heading{
+    margin: 22px;
+
+    font-family: Quicksand;
+	  font-style: normal;
+	  font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+
+    text-align: center;
+
+}
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    background-color: white;
+    border-radius: 10%;
+    border: none;
+    width: 30vw;
+
+    /* margin-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px; */
+
+    text-align: center;
+
+    font-family: Quicksand;
+	  font-style: normal;
+	  /* font-weight: 500;
+	  font-size: 25px;
+	  line-height: 31px; */
+
+}
+
+.description > h1 {
+    margin-bottom: 0px;
+}
+
+.description > p {
+  margin-top: 20px;
+  padding: 0px 43px 0px 43px;
+}
